@@ -812,9 +812,6 @@ function LoginScreen({ go }) {
           <div style={{ flex: 1, height: 1, background: BORDER }} />
         </div>
         <GoogleButton onClick={() => go("dashboard", { studentName: "tanvi" })} />
-        <div style={{ marginTop: 12 }}>
-          <MockNote>Google OAuth via Supabase happens here.</MockNote>
-        </div>
       </form>
       <p style={{ textAlign: "center", fontSize: 12.5, color: FAINT, marginTop: 18 }}>
         Having trouble? Contact your teacher or school administrator.
